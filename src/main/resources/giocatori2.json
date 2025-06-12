@@ -1,0 +1,47 @@
+[
+  {
+    "codiceFiscale": "RSSMRA80A01H501U",
+    "nome": "Andrea",
+    "cognome": "Brambilla",
+    "eta": 28,
+    "ruolo": "attaccante",
+    "tesserato": true,
+    "esperienza": "avanzato"
+  },
+  {
+    "codiceFiscale": "MRTLCU91M11H502E",
+    "nome": "Luca",
+    "cognome": "Marchetti",
+    "eta": 31,
+    "ruolo": "centrocampista",
+    "tesserato": false,
+    "esperienza": "intermedio"
+  },
+  {
+    "codiceFiscale": "VRDGNN85C03H501W",
+    "nome": "Giorgia",
+    "cognome": "Verdi",
+    "eta": 27,
+    "ruolo": "difensore",
+    "tesserato": true,
+    "esperienza": "avanzato"
+  },
+  {
+    "codiceFiscale": "FRRGNN94P12H502F",
+    "nome": "Giovanna",
+    "cognome": "Ferretti",
+    "eta": 29,
+    "ruolo": "portiere",
+    "tesserato": true,
+    "esperienza": "principiante"
+  },
+  {
+    "codiceFiscale": "RSSMRA80A01H501U",
+    "nome": "Roberto",
+    "cognome": "Santoro",
+    "eta": 33,
+    "ruolo": "difensore",
+    "tesserato": false,
+    "esperienza": "intermedio"
+  }
+]

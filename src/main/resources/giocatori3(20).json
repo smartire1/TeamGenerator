@@ -1,0 +1,362 @@
+[
+  {
+    "codiceFiscale": "PRTMRN85A01H501A",
+    "nome": "Marco",
+    "cognome": "Rossi",
+    "eta": 28,
+    "ruolo": "portiere",
+    "tesserato": true,
+    "esperienza": "intermedio"
+  },
+  {
+    "codiceFiscale": "DFNLCU90B02H501B",
+    "nome": "Luca",
+    "cognome": "Bianchi",
+    "eta": 24,
+    "ruolo": "difensore",
+    "tesserato": false,
+    "esperienza": "principiante"
+  },
+  {
+    "codiceFiscale": "CTRGNN92C03H501C",
+    "nome": "Andrea",
+    "cognome": "Verdi",
+    "eta": 30,
+    "ruolo": "centrocampista",
+    "tesserato": true,
+    "esperienza": "avanzato"
+  },
+  {
+    "codiceFiscale": "ATTMNL88D04H501D",
+    "nome": "Giovanni",
+    "cognome": "Neri",
+    "eta": 33,
+    "ruolo": "attaccante",
+    "tesserato": true,
+    "esperienza": "intermedio"
+  },
+  {
+    "codiceFiscale": "PRTGRG95E05H501E",
+    "nome": "Giorgio",
+    "cognome": "Gialli",
+    "eta": 26,
+    "ruolo": "portiere",
+    "tesserato": false,
+    "esperienza": "principiante"
+  },
+  {
+    "codiceFiscale": "DFNMRK91F06H501F",
+    "nome": "Marika",
+    "cognome": "Blu",
+    "eta": 29,
+    "ruolo": "difensore",
+    "tesserato": true,
+    "esperienza": "avanzato"
+  },
+  {
+    "codiceFiscale": "CTRFRC93G07H501G",
+    "nome": "Francesca",
+    "cognome": "Verdi",
+    "eta": 27,
+    "ruolo": "centrocampista",
+    "tesserato": false,
+    "esperienza": "intermedio"
+  },
+  {
+    "codiceFiscale": "ATTGPA89H08H501H",
+    "nome": "Giampaolo",
+    "cognome": "Russi",
+    "eta": 32,
+    "ruolo": "attaccante",
+    "tesserato": true,
+    "esperienza": "avanzato"
+  },
+  {
+    "codiceFiscale": "PRTLRA96I09H501I",
+    "nome": "Laura",
+    "cognome": "Bianchi",
+    "eta": 25,
+    "ruolo": "portiere",
+    "tesserato": true,
+    "esperienza": "principiante"
+  },
+  {
+    "codiceFiscale": "DFNCRL94L10H501J",
+    "nome": "Carlo",
+    "cognome": "Graziani",
+    "eta": 27,
+    "ruolo": "difensore",
+    "tesserato": false,
+    "esperienza": "intermedio"
+  },
+  {
+    "codiceFiscale": "CTRPLA83M11H501K",
+    "nome": "Paolo",
+    "cognome": "Romano",
+    "eta": 38,
+    "ruolo": "centrocampista",
+    "tesserato": true,
+    "esperienza": "avanzato"
+  },
+  {
+    "codiceFiscale": "ATTSRA97N12H501L",
+    "nome": "Sara",
+    "cognome": "Santoro",
+    "eta": 24,
+    "ruolo": "attaccante",
+    "tesserato": false,
+    "esperienza": "principiante"
+  },
+  {
+    "codiceFiscale": "PRTDMN82O13H501M",
+    "nome": "Domenico",
+    "cognome": "Marino",
+    "eta": 39,
+    "ruolo": "portiere",
+    "tesserato": true,
+    "esperienza": "avanzato"
+  },
+  {
+    "codiceFiscale": "DFNGLI99P14H501N",
+    "nome": "Giulia",
+    "cognome": "Lombardi",
+    "eta": 22,
+    "ruolo": "difensore",
+    "tesserato": false,
+    "esperienza": "principiante"
+  },
+  {
+    "codiceFiscale": "CTRMRC84Q15H501O",
+    "nome": "Mario",
+    "cognome": "Ricci",
+    "eta": 37,
+    "ruolo": "centrocampista",
+    "tesserato": true,
+    "esperienza": "intermedio"
+  },
+  {
+    "codiceFiscale": "ATTGRZ91R16H501P",
+    "nome": "Grazia",
+    "cognome": "Conti",
+    "eta": 30,
+    "ruolo": "attaccante",
+    "tesserato": true,
+    "esperienza": "avanzato"
+  },
+  {
+    "codiceFiscale": "PRTFBA87S17H501Q",
+    "nome": "Fabio",
+    "cognome": "Barbieri",
+    "eta": 34,
+    "ruolo": "portiere",
+    "tesserato": false,
+    "esperienza": "intermedio"
+  },
+  {
+    "codiceFiscale": "DFNALE85T18H501R",
+    "nome": "Alessandro",
+    "cognome": "Fontana",
+    "eta": 36,
+    "ruolo": "difensore",
+    "tesserato": true,
+    "esperienza": "avanzato"
+  },
+  {
+    "codiceFiscale": "CTRSTF98U19H501S",
+    "nome": "Stefano",
+    "cognome": "Galli",
+    "eta": 23,
+    "ruolo": "centrocampista",
+    "tesserato": false,
+    "esperienza": "principiante"
+  },
+  {
+    "codiceFiscale": "ATTLRE93V20H501T",
+    "nome": "Lorenzo",
+    "cognome": "Martini",
+    "eta": 28,
+    "ruolo": "attaccante",
+    "tesserato": true,
+    "esperienza": "intermedio"
+  },
+  {
+    "codiceFiscale": "RSSMRC85A01H501A",
+    "nome": "Marco",
+    "cognome": "Rossi",
+    "eta": 28,
+    "ruolo": "portiere",
+    "tesserato": true,
+    "esperienza": "avanzato"
+  },
+  {
+    "codiceFiscale": "BNCLCU81B02H501B",
+    "nome": "Laura",
+    "cognome": "Bianchi",
+    "eta": 41,
+    "ruolo": "difensore",
+    "tesserato": true,
+    "esperienza": "intermedio"
+  },
+  {
+    "codiceFiscale": "VRDNDR87C03H501C",
+    "nome": "Andrea",
+    "cognome": "Verdi",
+    "eta": 35,
+    "ruolo": "centrocampista",
+    "tesserato": true,
+    "esperienza": "principiante"
+  },
+  {
+    "codiceFiscale": "NRIGLU73D04H501D",
+    "nome": "Giulia",
+    "cognome": "Neri",
+    "eta": 50,
+    "ruolo": "attaccante",
+    "tesserato": true,
+    "esperienza": "avanzato"
+  },
+  {
+    "codiceFiscale": "MRTLCU84E05H501E",
+    "nome": "Luca",
+    "cognome": "Moretti",
+    "eta": 37,
+    "ruolo": "difensore",
+    "tesserato": false,
+    "esperienza": "intermedio"
+  },
+  {
+    "codiceFiscale": "CNTLNE82F06H501F",
+    "nome": "Elena",
+    "cognome": "Conti",
+    "eta": 40,
+    "ruolo": "centrocampista",
+    "tesserato": false,
+    "esperienza": "principiante"
+  },
+  {
+    "codiceFiscale": "FRRSTF80G07H501G",
+    "nome": "Stefano",
+    "cognome": "Ferrara",
+    "eta": 42,
+    "ruolo": "attaccante",
+    "tesserato": false,
+    "esperienza": "avanzato"
+  },
+  {
+    "codiceFiscale": "RMNSRA81H08H501H",
+    "nome": "Sara",
+    "cognome": "Romano",
+    "eta": 39,
+    "ruolo": "portiere",
+    "tesserato": false,
+    "esperienza": "intermedio"
+  },
+  {
+    "codiceFiscale": "CSTALS00I09H501I",
+    "nome": "Alessio",
+    "cognome": "Costa",
+    "eta": 22,
+    "ruolo": "difensore",
+    "tesserato": false,
+    "esperienza": "principiante"
+  },
+  {
+    "codiceFiscale": "MRTCHR97J10H501J",
+    "nome": "Chiara",
+    "cognome": "Martini",
+    "eta": 25,
+    "ruolo": "centrocampista",
+    "tesserato": false,
+    "esperienza": "intermedio"
+  },
+  {
+    "codiceFiscale": "RVADVD92K11H501K",
+    "nome": "Davide",
+    "cognome": "Riva",
+    "eta": 30,
+    "ruolo": "attaccante",
+    "tesserato": false,
+    "esperienza": "avanzato"
+  },
+  {
+    "codiceFiscale": "ESPFDR01L12H501L",
+    "nome": "Federica",
+    "cognome": "Esposito",
+    "eta": 19,
+    "ruolo": "portiere",
+    "tesserato": false,
+    "esperienza": "principiante"
+  },
+  {
+    "codiceFiscale": "LNEMTT94M13H501M",
+    "nome": "Matteo",
+    "cognome": "Leone",
+    "eta": 28,
+    "ruolo": "difensore",
+    "tesserato": false,
+    "esperienza": "intermedio"
+  },
+  {
+    "codiceFiscale": "SNTGRT96N14H501N",
+    "nome": "Greta",
+    "cognome": "Santoro",
+    "eta": 24,
+    "ruolo": "centrocampista",
+    "tesserato": false,
+    "esperienza": "avanzato"
+  },
+  {
+    "codiceFiscale": "MRCSMN91O15H501O",
+    "nome": "Simone",
+    "cognome": "Marchetti",
+    "eta": 33,
+    "ruolo": "attaccante",
+    "tesserato": false,
+    "esperienza": "principiante"
+  },
+  {
+    "codiceFiscale": "FRIVLN93P16H501P",
+    "nome": "Valentina",
+    "cognome": "Fiore",
+    "eta": 27,
+    "ruolo": "portiere",
+    "tesserato": false,
+    "esperienza": "intermedio"
+  },
+  {
+    "codiceFiscale": "DLCRCR90Q17H501Q",
+    "nome": "Riccardo",
+    "cognome": "De Luca",
+    "eta": 31,
+    "ruolo": "difensore",
+    "tesserato": false,
+    "esperienza": "avanzato"
+  },
+  {
+    "codiceFiscale": "LMBRRN02R18H501R",
+    "nome": "Arianna",
+    "cognome": "Lombardi",
+    "eta": 20,
+    "ruolo": "centrocampista",
+    "tesserato": false,
+    "esperienza": "principiante"
+  },
+  {
+    "codiceFiscale": "SLAENR95S19H501S",
+    "nome": "Enrico",
+    "cognome": "Sala",
+    "eta": 29,
+    "ruolo": "attaccante",
+    "tesserato": false,
+    "esperienza": "intermedio"
+  },
+  {
+    "codiceFiscale": "SRNVLO88T20H501T",
+    "nome": "Viola",
+    "cognome": "Sereni",
+    "eta": 35,
+    "ruolo": "portiere",
+    "tesserato": false,
+    "esperienza": "avanzato"
+  }
+]
