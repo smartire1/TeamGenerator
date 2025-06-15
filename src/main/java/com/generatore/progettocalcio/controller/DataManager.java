@@ -25,19 +25,15 @@ public class DataManager {
     }
 
     public ArrayList<Giocatore> getTessrati(){
-        return giocatori.stream().filter(Giocatore::getTesserato).collect(Collectors.toCollection(ArrayList::new));                             //  Ritorna tutti i giocatori tesserati
-    }
-
-    public ArrayList<Giocatore> getOver35(){
-        return giocatori.stream().filter(g -> g.getEta() > 34 && !g.getTesserato()).collect(Collectors.toCollection(ArrayList::new));   //  Ritorna tutti i giocatori over 35 NON tesserati
+        return giocatori.stream().filter(Giocatore::getTesserato).collect(Collectors.toCollection(ArrayList::new));                                              //  Ritorna tutti i giocatori tesserati
     }
 
     public ArrayList<Giocatore> getPortieri(){
-        return giocatori.stream().filter(g -> g.getRuolo().equals("portiere")).collect(Collectors.toCollection(ArrayList::new));   //  Ritorna tutti i giocatori over 35 NON tesserati
+        return giocatori.stream().filter(g -> g.getRuolo().equals("portiere")).collect(Collectors.toCollection(ArrayList::new));                        //  Ritorna tutti i giocatori over 35 NON tesserati
     }
 
     public ArrayList<Giocatore> getPlayer(){
-        return giocatori.stream().filter(g -> /*g.getEta() <= 34 &&*/ !g.getTesserato() && !g.getRuolo().equals("portiere")).collect(Collectors.toCollection(ArrayList::new));  //  Ritorna tutti i giocatori con score (non tesserati e under 35)
+        return giocatori.stream().filter(g -> !g.getTesserato() && !g.getRuolo().equals("portiere")).collect(Collectors.toCollection(ArrayList::new));  //  Ritorna tutti i giocatori con score (non tesserati)
     }
 
     public void addGiocatori(ArrayList<Giocatore> nuoviGiocatori) {

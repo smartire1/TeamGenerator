@@ -76,7 +76,6 @@ public class Giocatore {
 
     int getPunteggio() {
         if (Tesserato) return 10;
-        if (Eta > 34 && !Tesserato) return 1;
         return switch (Esperienza) {
             case "principiante" -> 2;
             case "intermedio" -> 5;

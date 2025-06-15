@@ -19,16 +19,23 @@ public class TeamGen{
 
         //Recupero dei giocatori dal DataManager
         ArrayList<Giocatore> Tesserati = DataManager.getInstance().getTessrati();
-        ArrayList<Giocatore> Over35 = DataManager.getInstance().getOver35();
         ArrayList<Giocatore> Player = DataManager.getInstance().getPlayer();
+        ArrayList<Giocatore> portieri = DataManager.getInstance().getPortieri();
 
         //primo shuffle
         Collections.shuffle(Tesserati);
-        Collections.shuffle(Over35);
         Collections.shuffle(Player);
+        Collections.shuffle(portieri);
+
+
+        //inserimento portieri
+        for(Giocatore g : portieri) {
+            squadre.get(indexSquadra % Nteam).inserisciGiocatore(g);
+            indexSquadra++;
+        }
 
         //defizione dei ruoli
-        String[] ruoli = {"portiere","difensore", "centrocampista", "attaccante"};
+        String[] ruoli = {"difensore", "centrocampista", "attaccante"};
 
         //Mappa conteggio numero player per squadra
         int[] conteggioSquadre = new int[Nteam];
@@ -70,6 +77,50 @@ public class TeamGen{
         }
 
         //Inserimento under 35 per livello
+        for (String ruolo : ruoli) {
+            ArrayList<Giocatore> rankB = new ArrayList<>();
+            ArrayList<Giocatore> rankC = new ArrayList<>();
+            ArrayList<Giocatore> rankD = new ArrayList<>();
+
+            for (Giocatore g : Player) {
+
+                if (!g.getRuolo().equals(ruolo)) continue;
+
+                int punteggio = g.getPunteggio();
+                if (punteggio == 7) {
+                    rankB.add(g);
+                } else if (punteggio == 5) {
+                    rankC.add(g);
+                } else if (punteggio == 2) {
+                    rankD.add(g);
+                }
+            }
+
+            Collections.shuffle(rankB);
+            Collections.shuffle(rankC);
+            Collections.shuffle(rankD);
+
+            ArrayList<Giocatore> ordinati = new ArrayList<>();
+            ordinati.addAll(rankB);
+            ordinati.addAll(rankC);
+            ordinati.addAll(rankD);
+
+            for (Giocatore g : ordinati) {
+                ArrayList<Squadra> squadreOrdinate = new ArrayList<>(squadre);
+                squadreOrdinate.sort(new Comparator<Squadra>() {
+                    @Override
+                    public int compare(Squadra s1, Squadra s2) {
+                        return Integer.compare(s1.getScore(), s2.getScore());
+                    }
+                });
+
+                Squadra squadraScelta = squadreOrdinate.get(0);
+                squadraScelta.inserisciGiocatore(g); // aggiorna già il punteggio
+            }
+        }
+
+
+
 
 /*
         String[] Livelli = {"avanzato", "intermedio","principiante"};
@@ -113,70 +164,15 @@ public class TeamGen{
 */
         //Inserimento RR U35
 
-        for(String r : ruoli){
-            for(Giocatore g : Player) {
-                if(g.getRuolo().equals(r)) {
-                    squadre.get(indexSquadra % Nteam).inserisciGiocatore(g);
-                    indexSquadra++;
-                }
-            }
-        }
-        //inserimento portieri
-        ArrayList<Giocatore> portieri = DataManager.getInstance().getPortieri();
-        for(Giocatore g : portieri) {
-            squadre.get(indexSquadra % Nteam).inserisciGiocatore(g);
-            indexSquadra++;
-        }
+//        for(String r : ruoli){
+//            for(Giocatore g : Player) {
+//                if(g.getRuolo().equals(r)) {
+//                    squadre.get(indexSquadra % Nteam).inserisciGiocatore(g);
+//                    indexSquadra++;
+//                }
+//            }
+//        }
+
         DataManager.getInstance().addSquadre(squadre);
     }
 }
-
-
-
-
-
-
-
-
-//public class TeamGen {
-//
-//    public static void Genera(int Nteam) {
-//        int index = 0;
-//
-//        ArrayList<Squadra> squadre = new ArrayList<>();
-//        for(int i = 1; i <= Nteam; i++) {
-//            squadre.add(new Squadra("Squadra " + i));
-//        }
-//
-//        String[] ruoli = {"portiere", "difensore", "centrocampista", "attaccante"};
-//        ArrayList<Giocatore> Tesserati = DataManager.getInstance().getTessrati();
-//        ArrayList<Giocatore> Over35 = DataManager.getInstance().getOver35();
-//        ArrayList<Giocatore> Livello = DataManager.getInstance().getPlayer();
-//
-//        for(String r : ruoli){
-//            for(Giocatore g : Tesserati) {
-//                if(g.getRuolo().equals(r)) {
-//                    squadre.get(index % Nteam).inserisciGiocatore(g);
-//                    System.out.println(r + " aggiunto a squadra -> " + index % Nteam);
-//                    index++;
-//                }
-//            }
-//            //Collections.shuffle(squadre);
-//            System.out.println("\n");
-//        }
-//
-//        for(String r : ruoli){
-//            for(Giocatore g : Over35) {
-//                if(g.getRuolo().equals(r)) {
-//                    squadre.get(index % Nteam).inserisciGiocatore(g);
-//                    System.out.println(r + " aggiunto a squadra -> " + index % Nteam);
-//                    index++;
-//                }
-//            }
-//            //Collections.shuffle(squadre);
-//            System.out.println("\n");
-//        }
-//
-//        DataManager.getInstance().addSquadre(squadre);
-//    }
-//}
