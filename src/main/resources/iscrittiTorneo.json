@@ -1,0 +1,533 @@
+[
+  {
+    "codiceFiscale": "GPPACN97D05F839X",
+    "nome": "Giuseppe",
+    "cognome": "Acanpora",
+    "eta": 24,
+    "ruolo": "difensore",
+    "tesserato": false,
+    "esperienza": "intermedio"
+  },
+  {
+    "codiceFiscale": "CRMBLS95C21F839Y",
+    "nome": "Carmine",
+    "cognome": "Balestrieri",
+    "eta": 30,
+    "ruolo": "centrocampista",
+    "tesserato": false,
+    "esperienza": "avanzato"
+  },
+  {
+    "codiceFiscale": "MRCCSC96D15F839Z",
+    "nome": "Mario",
+    "cognome": "Cascone",
+    "eta": 28,
+    "ruolo": "difensore",
+    "tesserato": false,
+    "esperienza": "intermedio"
+  },
+  {
+    "codiceFiscale": "CMLCVL99P01F839A",
+    "nome": "Camillo",
+    "cognome": "Cavaliere",
+    "eta": 29,
+    "ruolo": "portiere",
+    "tesserato": false,
+    "esperienza": "avanzato"
+  },
+  {
+    "codiceFiscale": "GNCMNT94P20F839B",
+    "nome": "Gennaro",
+    "cognome": "Commentale",
+    "eta": 31,
+    "ruolo": "portiere",
+    "tesserato": false,
+    "esperienza": "intermedio"
+  },
+  {
+    "codiceFiscale": "FRCDFM97A15F839C",
+    "nome": "Francesco",
+    "cognome": "D'ambrosio",
+    "eta": 26,
+    "ruolo": "attaccante",
+    "tesserato": false,
+    "esperienza": "principiante"
+  },
+  {
+    "codiceFiscale": "NCLDMR95A10F839D",
+    "nome": "Nicola",
+    "cognome": "D'amora",
+    "eta": 27,
+    "ruolo": "attaccante",
+    "tesserato": false,
+    "esperienza": "avanzato"
+  },
+  {
+    "codiceFiscale": "ANTMSCL94A12F839E",
+    "nome": "Antonio",
+    "cognome": "Mascolo",
+    "eta": 25,
+    "ruolo": "attaccante",
+    "tesserato": false,
+    "esperienza": "principiante"
+  },
+  {
+    "codiceFiscale": "ANTRCC98A22F839F",
+    "nome": "Antonio",
+    "cognome": "Ruocco",
+    "eta": 29,
+    "ruolo": "attaccante",
+    "tesserato": false,
+    "esperienza": "avanzato"
+  },
+  {
+    "codiceFiscale": "FRCFNT96A05F839G",
+    "nome": "Francesco",
+    "cognome": "Fontanella",
+    "eta": 27,
+    "ruolo": "attaccante",
+    "tesserato": false,
+    "esperienza": "intermedio"
+  },
+  {
+    "codiceFiscale": "DNTPRR95D10F839S",
+    "nome": "Francesco",
+    "cognome": "Donato",
+    "eta": 29,
+    "ruolo": "attaccante",
+    "tesserato": false,
+    "esperienza": "intermedio"
+  },
+  {
+    "codiceFiscale": "ANTIVN98A01F839Z",
+    "nome": "Antonio",
+    "cognome": "Dimassa",
+    "eta": 28,
+    "ruolo": "centrocampista",
+    "tesserato": false,
+    "esperienza": "avanzato"
+  },
+  {
+    "codiceFiscale": "ANTIVN95I21F839W",
+    "nome": "Antonio",
+    "cognome": "Iovine",
+    "eta": 31,
+    "ruolo": "attaccante",
+    "tesserato": true,
+    "esperienza": "avanzato"
+  },
+  {
+    "codiceFiscale": "VLPLPN97C05F839J",
+    "nome": "Valerio",
+    "cognome": "Lapiano",
+    "eta": 26,
+    "ruolo": "centrocampista",
+    "tesserato": false,
+    "esperienza": "intermedio"
+  },
+  {
+    "codiceFiscale": "SLMVTR99C15F839T",
+    "nome": "Salvatore",
+    "cognome": "Martire",
+    "eta": 25,
+    "ruolo": "centrocampista",
+    "tesserato": false,
+    "esperienza": "avanzato"
+  },
+  {
+    "codiceFiscale": "GNPPCR94C20F839L",
+    "nome": "Gennaro",
+    "cognome": "Peccerillo",
+    "eta": 29,
+    "ruolo": "centrocampista",
+    "tesserato": true,
+    "esperienza": "avanzato"
+  },
+  {
+    "codiceFiscale": "CRRUCC98A11F839M",
+    "nome": "Ciro",
+    "cognome": "Ruocco",
+    "eta": 27,
+    "ruolo": "attaccante",
+    "tesserato": false,
+    "esperienza": "principiante"
+  },
+  {
+    "codiceFiscale": "GSSRTN97C25F839N",
+    "nome": "Giuseppe",
+    "cognome": "Sorrentino",
+    "eta": 26,
+    "ruolo": "centrocampista",
+    "tesserato": false,
+    "esperienza": "avanzato"
+  },
+  {
+    "codiceFiscale": "AFSRTN96D15F839P",
+    "nome": "Alfonso",
+    "cognome": "Sorrentino",
+    "eta": 28,
+    "ruolo": "difensore",
+    "tesserato": false,
+    "esperienza": "principiante"
+  },
+  {
+    "codiceFiscale": "LSCMNF97A01F839Y",
+    "nome": "Alfonso",
+    "cognome": "Commentale",
+    "eta": 26,
+    "ruolo": "difensore",
+    "tesserato": false,
+    "esperienza": "avanzato"
+  },
+  {
+    "codiceFiscale": "LSCNLS94T21F205M",
+    "nome": "Alessandro",
+    "cognome": "Cascone",
+    "eta": 31,
+    "ruolo": "attaccante",
+    "tesserato": true,
+    "esperienza": "avanzato"
+  },
+  {
+    "codiceFiscale": "NCLDMR96M04F205E",
+    "nome": "Nicola",
+    "cognome": "Damora04",
+    "eta": 28,
+    "ruolo": "difensore",
+    "tesserato": false,
+    "esperienza": "intermedio"
+  },
+  {
+    "codiceFiscale": "NTNGGL99A13F839D",
+    "nome": "Antonio",
+    "cognome": "Gargiulo",
+    "eta": 26,
+    "ruolo": "attaccante",
+    "tesserato": false,
+    "esperienza": "intermedio"
+  },
+  {
+    "codiceFiscale": "ANTBNC95L01F839R",
+    "nome": "Antonio",
+    "cognome": "Bianchi",
+    "eta": 29,
+    "ruolo": "attaccante",
+    "tesserato": true,
+    "esperienza": "avanzato"
+  },
+  {
+    "codiceFiscale": "GVSNNT92D10F839S",
+    "nome": "Giovanni",
+    "cognome": "Santoro",
+    "eta": 32,
+    "ruolo": "difensore",
+    "tesserato": true,
+    "esperienza": "avanzato"
+  },
+  {
+    "codiceFiscale": "DLGSLB01C25F839N",
+    "nome": "Diego",
+    "cognome": "Rosalba",
+    "eta": 23,
+    "ruolo": "centrocampista",
+    "tesserato": false,
+    "esperienza": "avanzato"
+  },
+  {
+    "codiceFiscale": "LGSRRN96L05F839Z",
+    "nome": "Luigi",
+    "cognome": "Sorrentino",
+    "eta": 27,
+    "ruolo": "difensore",
+    "tesserato": false,
+    "esperienza": "principiante"
+  },
+  {
+    "codiceFiscale": "CMLTRL04M15F839P",
+    "nome": "Camillo",
+    "cognome": "Tarallo",
+    "eta": 20,
+    "ruolo": "attaccante",
+    "tesserato": false,
+    "esperienza": "intermedio"
+  },
+  {
+    "codiceFiscale": "DLRBSR96D05F839Z",
+    "nome": "Antonio",
+    "cognome": "Delsorbo",
+    "eta": 29,
+    "ruolo": "attaccante",
+    "tesserato": false,
+    "esperienza": "intermedio"
+  },
+  {
+    "codiceFiscale": "FDRFND94C12F839W",
+    "nome": "Ferdinando",
+    "cognome": "Diruocco",
+    "eta": 31,
+    "ruolo": "attaccante",
+    "tesserato": true,
+    "esperienza": "avanzato"
+  },
+  {
+    "codiceFiscale": "BLDFLV93D03F839R",
+    "nome": "Baldo",
+    "cognome": "Folvini",
+    "eta": 32,
+    "ruolo": "difensore",
+    "tesserato": false,
+    "esperienza": "avanzato"
+  },
+  {
+    "codiceFiscale": "JCPFRT97E20F839K",
+    "nome": "Jacopo",
+    "cognome": "Fortunato",
+    "eta": 26,
+    "ruolo": "centrocampista",
+    "tesserato": true,
+    "esperienza": "intermedio"
+  },
+  {
+    "codiceFiscale": "DMNCSN01L17F839V",
+    "nome": "Domenico",
+    "cognome": "Cascone",
+    "eta": 24,
+    "ruolo": "difensore",
+    "tesserato": true,
+    "esperienza": "avanzato"
+  },
+  {
+    "codiceFiscale": "VNCGRG92T10F839S",
+    "nome": "Vincenzo",
+    "cognome": "Gargiulo",
+    "eta": 32,
+    "ruolo": "difensore",
+    "tesserato": false,
+    "esperienza": "principiante"
+  },
+  {
+    "codiceFiscale": "FRNVCD98A25F839M",
+    "nome": "Francesco",
+    "cognome": "Vicedomini",
+    "eta": 27,
+    "ruolo": "attaccante",
+    "tesserato": false,
+    "esperienza": "intermedio"
+  },
+  {
+    "codiceFiscale": "GLCVCD96C20F839L",
+    "nome": "Gianluca",
+    "cognome": "Vicedomini",
+    "eta": 28,
+    "ruolo": "centrocampista",
+    "tesserato": false,
+    "esperienza": "intermedio"
+  },
+  {
+    "codiceFiscale": "LGVCDM96L05F839Z",
+    "nome": "Luigi",
+    "cognome": "Vicedomini",
+    "eta": 27,
+    "ruolo": "difensore",
+    "tesserato": false,
+    "esperienza": "principiante"
+  },
+  {
+    "codiceFiscale": "GSPRCC98L03F839X",
+    "nome": "Giuseppe",
+    "cognome": "Ruocco",
+    "eta": 29,
+    "ruolo": "centrocampista",
+    "tesserato": false,
+    "esperienza": "avanzato"
+  },
+  {
+    "codiceFiscale": "CMMGNN99A01F839Y",
+    "nome": "Giovanni",
+    "cognome": "Commentale",
+    "eta": 26,
+    "ruolo": "attaccante",
+    "tesserato": false,
+    "esperienza": "intermedio"
+  },
+  {
+    "codiceFiscale": "DNGVNZ98C12F839W",
+    "nome": "Vincenzo",
+    "cognome": "Deangelis",
+    "eta": 27,
+    "ruolo": "difensore",
+    "tesserato": false,
+    "esperienza": "intermedio"
+  },
+  {
+    "codiceFiscale": "DLRCRN96D05F839Z",
+    "nome": "Carmine",
+    "cognome": "Dilorenzo",
+    "eta": 29,
+    "ruolo": "attaccante",
+    "tesserato": false,
+    "esperienza": "avanzato"
+  },
+  {
+    "codiceFiscale": "DNNGPP94B11F839J",
+    "nome": "Giuseppe",
+    "cognome": "Donnarumma",
+    "eta": 31,
+    "ruolo": "attaccante",
+    "tesserato": true,
+    "esperienza": "avanzato"
+  },
+  {
+    "codiceFiscale": "SPSCtl93T10F839R",
+    "nome": "Catello",
+    "cognome": "Esposito",
+    "eta": 32,
+    "ruolo": "centrocampista",
+    "tesserato": true,
+    "esperienza": "avanzato"
+  },
+  {
+    "codiceFiscale": "GLGNTN97E22F839K",
+    "nome": "Antonello",
+    "cognome": "Giugliano",
+    "eta": 28,
+    "ruolo": "difensore",
+    "tesserato": false,
+    "esperienza": "principiante"
+  },
+  {
+    "codiceFiscale": "LRWWLM98H30F839T",
+    "nome": "William",
+    "cognome": "Lauro",
+    "eta": 26,
+    "ruolo": "centrocampista",
+    "tesserato": false,
+    "esperienza": "avanzato"
+  },
+  {
+    "codiceFiscale": "NVLDMC95D08F839B",
+    "nome": "Domenico",
+    "cognome": "Novellino",
+    "eta": 30,
+    "ruolo": "attaccante",
+    "tesserato": false,
+    "esperienza": "avanzato"
+  },
+  {
+    "codiceFiscale": "RCCVCN99L01F839X",
+    "nome": "Vincenzo",
+    "cognome": "Ricciardi",
+    "eta": 25,
+    "ruolo": "attaccante",
+    "tesserato": true,
+    "esperienza": "principiante"
+  },
+  {
+    "codiceFiscale": "VCDMCL94R03F839V",
+    "nome": "Michele",
+    "cognome": "Vicedomini",
+    "eta": 31,
+    "ruolo": "attaccante",
+    "tesserato": false,
+    "esperienza": "intermedio"
+  },
+  {
+    "codiceFiscale": "DMDMRR86P15F839Q",
+    "nome": "Domenico",
+    "cognome": "D'amora",
+    "eta": 37,
+    "ruolo": "portiere",
+    "tesserato": false,
+    "esperienza": "principiante"
+  },
+  {
+    "codiceFiscale": "SMMVCN99A20LB45G",
+    "nome": "Vincenzo",
+    "cognome": "Somma",
+    "eta": 26,
+    "ruolo": "difensore",
+    "tesserato": true,
+    "esperienza": "avanzato"
+  },
+  {
+    "codiceFiscale": "SBTSFN01S19L845Y",
+    "nome": "Stefano",
+    "cognome": "Sabatino",
+    "eta": 23,
+    "ruolo": "centrocampista",
+    "tesserato": false,
+    "esperienza": "intermedio"
+  },
+  {
+    "codiceFiscale": "GLSMRC01S19L845Y",
+    "nome": "Marco",
+    "cognome": "Galasso",
+    "eta": 23,
+    "ruolo": "centrocampista",
+    "tesserato": false,
+    "esperienza": "avanzato"
+  },
+  {
+    "codiceFiscale": "VRPVLN01S19L845Y",
+    "nome": "Valentino",
+    "cognome": "Veropalumbo",
+    "eta": 23,
+    "ruolo": "difensore",
+    "tesserato": false,
+    "esperienza": "intermedio"
+  },
+  {
+    "codiceFiscale": "RSOATN01S19L845Y",
+    "nome": "Antonio",
+    "cognome": "Russo",
+    "eta": 23,
+    "ruolo": "difensore",
+    "tesserato": false,
+    "esperienza": "intermedio"
+  },
+  {
+    "codiceFiscale": "PCIAIL01S19L845Y",
+    "nome": "Nello",
+    "cognome": "Piccirillo",
+    "eta": 23,
+    "ruolo": "centrocampista",
+    "tesserato": false,
+    "esperienza": "intermedio"
+  },
+  {
+    "codiceFiscale": "CSRDNE01S19L845Y",
+    "nome": "Daniele",
+    "cognome": "Cesarano",
+    "eta": 23,
+    "ruolo": "attaccante",
+    "tesserato": false,
+    "esperienza": "principiante"
+  },
+  {
+    "codiceFiscale": "DLRLII01S19L845Y",
+    "nome": "Luigi",
+    "cognome": "Di Lorenzo",
+    "eta": 23,
+    "ruolo": "attaccante",
+    "tesserato": false,
+    "esperienza": "principiante"
+  },
+  {
+    "codiceFiscale": "CVLDMN01S19L845Y",
+    "nome": "Domenico",
+    "cognome": "Cavaiere",
+    "eta": 23,
+    "ruolo": "portiere",
+    "tesserato": false,
+    "esperienza": "principiante"
+  },
+  {
+    "codiceFiscale": "STNGPP94E01C129E",
+    "nome": "Giuseppe",
+    "cognome": "Staiano",
+    "eta": 31,
+    "ruolo": "difensore",
+    "tesserato": false,
+    "esperienza": "avanzato"
+  }
+]

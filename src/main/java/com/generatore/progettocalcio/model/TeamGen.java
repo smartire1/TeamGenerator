@@ -28,7 +28,7 @@ public class TeamGen{
         Collections.shuffle(Player);
 
         //defizione dei ruoli
-        String[] ruoli = {"portiere", "difensore", "centrocampista", "attaccante"};
+        String[] ruoli = {"portiere","difensore", "centrocampista", "attaccante"};
 
         //Mappa conteggio numero player per squadra
         int[] conteggioSquadre = new int[Nteam];
@@ -71,15 +71,17 @@ public class TeamGen{
 
         //Inserimento under 35 per livello
 
-
+/*
         String[] Livelli = {"avanzato", "intermedio","principiante"};
 
         Map<String, ArrayList<Giocatore>> U35 = new HashMap<>();
-        for(String s: Livelli)
+        for(String s: Livelli) {
             U35.put(s, new ArrayList<>());
+        }
 
-        for(Giocatore g: Player)
+        for(Giocatore g: Player) {
             U35.get(g.getEsperienza()).add(g);
+        }
 
         if(Player.isEmpty()) System.out.println("Lista U35 vuota");
         else {
@@ -108,17 +110,23 @@ public class TeamGen{
 //                }
 //            }
         }
+*/
+        //Inserimento RR U35
 
-        //Inserimento RR Over35
-
-//        for(String r : ruoli){
-//            for(Giocatore g : Over35) {
-//                if(g.getRuolo().equals(r)) {
-//                    squadre.get(indexSquadra % Nteam).inserisciGiocatore(g);
-//                    indexSquadra++;
-//                }
-//            }
-//        }
+        for(String r : ruoli){
+            for(Giocatore g : Player) {
+                if(g.getRuolo().equals(r)) {
+                    squadre.get(indexSquadra % Nteam).inserisciGiocatore(g);
+                    indexSquadra++;
+                }
+            }
+        }
+        //inserimento portieri
+        ArrayList<Giocatore> portieri = DataManager.getInstance().getPortieri();
+        for(Giocatore g : portieri) {
+            squadre.get(indexSquadra % Nteam).inserisciGiocatore(g);
+            indexSquadra++;
+        }
         DataManager.getInstance().addSquadre(squadre);
     }
 }

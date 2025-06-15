@@ -9,9 +9,9 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
 
-<HBox alignment="CENTER" prefHeight="768.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.generatore.progettocalcio.controller.HelloController">
+<HBox alignment="CENTER" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.generatore.progettocalcio.controller.HelloController">
    <children>
-      <VBox alignment="CENTER" prefHeight="768.0" prefWidth="1024.0">
+      <VBox alignment="CENTER" prefHeight="600.0" prefWidth="800.0">
          <children>
             <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
                <children>
@@ -38,11 +38,11 @@
                   <Insets top="50.0" />
                </padding>
             </HBox>
-            <HBox alignment="CENTER" prefWidth="200.0">
+            <HBox alignment="CENTER">
                <children>
-                  <VBox alignment="CENTER" prefHeight="350.0" prefWidth="500.0">
+                  <VBox alignment="CENTER" prefHeight="350.0" prefWidth="400.0">
                      <children>
-                        <ListView fx:id="ListViewSquadre" prefHeight="300.0" prefWidth="500.0" />
+                        <ListView fx:id="ListViewSquadre" prefHeight="290.0" prefWidth="0.0" />
                         <Button mnemonicParsing="false" text="Visualizza">
                            <VBox.margin>
                               <Insets top="20.0" />
@@ -52,6 +52,9 @@
                      <HBox.margin>
                         <Insets top="50.0" />
                      </HBox.margin>
+                     <padding>
+                        <Insets left="50.0" />
+                     </padding>
                   </VBox>
                   <Pane prefHeight="280.0" prefWidth="181.0">
                      <HBox.margin>

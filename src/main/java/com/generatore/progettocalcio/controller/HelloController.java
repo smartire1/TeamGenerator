@@ -43,7 +43,7 @@ public class HelloController {
             showAlert("Numero giocatori insufficiente");
         }
         else {
-            TeamGen.Genera(3);
+            TeamGen.Genera(4);
             UpdateList();
         }
     }

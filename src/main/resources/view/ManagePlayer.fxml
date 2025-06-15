@@ -8,11 +8,11 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.generatore.progettocalcio.controller.ManagePlayerController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.generatore.progettocalcio.controller.ManagePlayerController">
    <children>
-      <VBox alignment="CENTER" prefHeight="768.0" prefWidth="980.0">
+      <VBox alignment="CENTER" prefHeight="600.0" prefWidth="800.0">
          <children>
-            <Pane prefHeight="96.0" prefWidth="980.0">
+            <Pane prefHeight="96.0" prefWidth="800.0">
                <children>
                   <Button alignment="CENTER" contentDisplay="TOP" layoutX="38.0" layoutY="32.0" mnemonicParsing="false" onAction="#MainScene" text="indietro" />
                </children>
@@ -27,9 +27,9 @@
                   <Insets top="30.0" />
                </VBox.margin>
             </Button>
-            <ListView fx:id="ListViewGiocaotri" prefHeight="319.0" prefWidth="880.0">
+            <ListView fx:id="ListViewGiocaotri" prefHeight="200.0" prefWidth="500.0">
                <VBox.margin>
-                  <Insets left="50.0" right="50.0" top="70.0" />
+                  <Insets bottom="50.0" left="50.0" right="50.0" top="70.0" />
                </VBox.margin>
             </ListView>
          </children>

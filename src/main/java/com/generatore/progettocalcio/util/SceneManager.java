@@ -22,7 +22,7 @@ public class SceneManager {
             FXMLLoader loader = new FXMLLoader(SceneManager.class.getResource(fxmlPath));
             Parent root = loader.load();
 
-            primaryStage.setScene(new Scene(root, 980, 768));
+            primaryStage.setScene(new Scene(root, 800, 600));
             primaryStage.setTitle("Team Generator");
             primaryStage.getIcons().add(new Image(Objects.requireNonNull(SceneManager.class.getResourceAsStream("/img/favico.png"))));
 
