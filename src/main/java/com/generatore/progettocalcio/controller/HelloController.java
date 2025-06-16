@@ -77,7 +77,7 @@ public class HelloController {
 
             Stage stage = new Stage();
             stage.setTitle("Visualizza Squadre");
-            stage.setScene(new Scene(root, 1300, 600));
+            stage.setScene(new Scene(root, 1250, 600));
             stage.getIcons().add(new Image(Objects.requireNonNull(SceneManager.class.getResourceAsStream("/img/favico.png"))));
             stage.show();
         } catch (IOException e) {

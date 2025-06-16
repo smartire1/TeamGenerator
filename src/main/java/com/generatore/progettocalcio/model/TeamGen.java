@@ -148,7 +148,7 @@ public class TeamGen{
         }
 
         boolean bilanciato = false;
-        int soglia = 2;
+        int soglia = 1;
 
         while (!bilanciato) {
             Squadra squadraMin = Collections.min(squadre, Comparator.comparingInt(Squadra::getNumGiocatori));
