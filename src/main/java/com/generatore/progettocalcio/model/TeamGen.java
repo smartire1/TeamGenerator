@@ -13,6 +13,30 @@ public class TeamGen{
         for(int i=0; i<Nteam; i++) {
             squadre.add(new Squadra("Squadra " + (i+1)));
         }
+        Giocatore g1 = new Giocatore("BLDFLV93D03F839R", "Baldo","Folvini",32,"difensore",false,"avanzato");
+        Giocatore g2 = new Giocatore("RCCVCN99L01F839X", "Vincenzo","Ricciardi",25,"attaccante",true,"avanzato");
+        Giocatore g3 = new Giocatore("DNNGPP94B11F839J", "Giuseppe","Donnarumma",25,"attaccante",true,"avanzato");
+        Giocatore g4 = new Giocatore("LGSRRN96L05F839Z", "Luigi","Sorrentino",27,"difensore",false,"principiante");
+        Giocatore g5 = new Giocatore("ANTRCC98A22F839F", "Antonio","Ruocco",29,"attaccante",false,"avanzato");
+        Giocatore g6 = new Giocatore("GSPRCC98L03F839X", "Giuseppe","Ruocco",29,"centrocampista",false,"avanzato");
+        Giocatore g7 = new Giocatore("ANTBNC95L01F839R", "Antonio","Bianchi",29,"attaccante",true,"avanzato");
+        Giocatore g8 = new Giocatore("GLCVCD96C20F839L", "Gianluca","Vicedomini",28,"centrocampista",false,"intermedio");
+        Giocatore g9 = new Giocatore("DLRBSR96D05F839Z", "Antonio","Delsorbo",29,"attaccante",false,"intermedio");
+        Giocatore g10 = new Giocatore("FRNVCD98A25F839M", "Francesco","Vicedomini",27,"attaccante",false,"intermedio");
+        Giocatore g11 = new Giocatore("JCPFRT97E20F839K", "Jacopo","Fortunato",26,"centrocampista",true,"avanzato");
+
+        squadre.get(0).inserisciGiocatore(g1);
+        squadre.get(0).inserisciGiocatore(g2);
+        squadre.get(1).inserisciGiocatore(g3);
+        squadre.get(1).inserisciGiocatore(g4);
+        squadre.get(1).inserisciGiocatore(g5);
+        squadre.get(1).inserisciGiocatore(g6);
+        squadre.get(2).inserisciGiocatore(g7);
+        squadre.get(2).inserisciGiocatore(g8);
+        squadre.get(2).inserisciGiocatore(g9);
+        squadre.get(3).inserisciGiocatore(g10);
+        squadre.get(3).inserisciGiocatore(g11);
+
 
         //indice scelta squadra
         int indexSquadra = 0;
@@ -89,9 +113,9 @@ public class TeamGen{
                 int punteggio = g.getPunteggio();
                 if (punteggio == 7) {
                     rankB.add(g);
-                } else if (punteggio == 5) {
+                } else if (punteggio == 4) {
                     rankC.add(g);
-                } else if (punteggio == 2) {
+                } else if (punteggio == 1) {
                     rankD.add(g);
                 }
             }

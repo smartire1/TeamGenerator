@@ -77,8 +77,8 @@ public class Giocatore {
     int getPunteggio() {
         if (Tesserato) return 10;
         return switch (Esperienza) {
-            case "principiante" -> 2;
-            case "intermedio" -> 5;
+            case "principiante" -> 1;
+            case "intermedio" -> 4;
             case "avanzato" -> 7;
             default -> 999;
         };
@@ -90,6 +90,6 @@ public class Giocatore {
 
     @Override
     public String toString() {
-        return "\tGiocatore{" + "CF: " + CodiceFiscale + ", nome: " + Nome + ", Cognome: " + Cognome + ", eta: " + Eta + ", Ruolo: " + Ruolo + ", Tesserato: " + Tesserato + "}\n";
+        return "\tGiocatore{" + "nome: " + Nome + ", Cognome: " + Cognome + ", Ruolo: " + Ruolo + ", Esperienza: " + Esperienza + ", Tesserato: " + Tesserato + "}\n";
     }
 }
