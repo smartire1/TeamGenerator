@@ -1,0 +1,55 @@
+/* team-view.css */
+.team-container {
+    -fx-alignment: center;
+    -fx-padding: 20;
+    -fx-hgap: 20;
+    -fx-vgap: 20;
+}
+
+.team-card {
+    -fx-background-color: linear-gradient(to bottom right, #ffffff, #f0f0f0);
+    -fx-padding: 15;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 8, 0, 0, 2);
+    -fx-border-color: #e0e0e0;
+    -fx-border-width: 1;
+    -fx-min-width: 250;
+    -fx-max-width: 300;
+}
+
+.team-title {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-padding: 0 0 10 0;
+    -fx-border-color: #dddddd;
+    -fx-border-width: 0 0 1 0;
+}
+
+.players-list {
+    -fx-spacing: 8;
+}
+
+.player-item {
+    -fx-font-size: 14px;
+    -fx-text-fill: #555555;
+}
+
+/* Stile per i ruoli specifici (opzionale) */
+.player-item.portiere {
+    -fx-text-fill: #2c7be5;
+    -fx-font-weight: bold;
+}
+
+.player-item.difensore {
+    -fx-text-fill: #27b187;
+}
+
+.player-item.centrocampista {
+    -fx-text-fill: #f5803e;
+}
+
+.player-item.attaccante {
+    -fx-text-fill: #e63757;
+}

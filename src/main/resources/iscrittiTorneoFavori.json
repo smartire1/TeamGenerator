@@ -27,6 +27,15 @@
     "esperienza": "intermedio"
   },
   {
+    "codiceFiscale": "LRTLNS00L14L845Q",
+    "nome": "Alfonso",
+    "cognome": "Lauritano",
+    "eta": 25,
+    "ruolo": "centrocampista",
+    "tesserato": false,
+    "esperienza": "intermedio"
+  },  
+  {
     "codiceFiscale": "CMLCVL99P01F839A",
     "nome": "Camillo",
     "cognome": "Cavaliere",
@@ -416,7 +425,7 @@
   {
     "codiceFiscale": "CVLDMN01S19L845Y",
     "nome": "Domenico",
-    "cognome": "Cavaiere",
+    "cognome": "Cavaliere",
     "eta": 23,
     "ruolo": "portiere",
     "tesserato": false,

@@ -2,6 +2,7 @@ package com.generatore.progettocalcio.model;
 
 import java.util.ArrayList;
 import java.util.ArrayList;
+import java.util.List;
 
 
 public class Squadra {
@@ -62,13 +63,30 @@ public class Squadra {
         this.score += giocatore.getPunteggio();
     }
 
-    public void rimuoviGiocatore(String cf) {
-        listaGiocatori.removeIf(g -> g.getCodiceFiscale().equals(cf));
+    public Giocatore rimuoviGiocatore(String cf) {
+        for(Giocatore g: listaGiocatori) {
+            if(g.getCodiceFiscale().equals(cf)) {
+                listaGiocatori.remove(g);
+                this.numGiocatori--;
+                this.score -= g.getPunteggio();
+                return g;
+            }
+        }
+        return null;
     }
 
     int getNumRole(String role){
         int num = (int) listaGiocatori.stream().filter(g -> g.getRuolo().equals(role)).count();
         return num;
+    }
+
+    public int getNumB(String s) {
+        int numB = 0;
+        for(Giocatore g: listaGiocatori) {
+            if(g.getRuolo().equals(s) && g.getEsperienza().equals("avanzato"))
+                numB++;
+        }
+        return numB;
     }
 
     @Override

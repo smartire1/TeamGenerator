@@ -55,4 +55,8 @@ public class DataManager {
     public void addSquadra(Squadra squadra) {
         squadre.add(squadra);
     }
+
+    public void resetSquadre() {
+        this.squadre.clear();
+    }
 }

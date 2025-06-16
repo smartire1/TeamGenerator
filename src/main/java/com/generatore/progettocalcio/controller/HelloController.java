@@ -13,10 +13,12 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.control.ListView;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class HelloController {
     @FXML
@@ -49,6 +51,12 @@ public class HelloController {
     }
 
     @FXML
+    public void resettaButton() {
+        DataManager.getInstance().resetSquadre();
+        UpdateList();
+    }
+
+    @FXML
     private void apriGestionePlayer(ActionEvent event) {
         SceneManager.switchTo("/view/ManagePlayer.fxml");
     }
@@ -60,4 +68,21 @@ public class HelloController {
         alert.setContentText(message);
         alert.showAndWait();
     }
+
+    @FXML
+    private void onVisualizzaSquadreClicked() {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/TeamViewController.fxml"));
+            Parent root = loader.load();
+
+            Stage stage = new Stage();
+            stage.setTitle("Visualizza Squadre");
+            stage.setScene(new Scene(root, 1300, 600));
+            stage.getIcons().add(new Image(Objects.requireNonNull(SceneManager.class.getResourceAsStream("/img/favico.png"))));
+            stage.show();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
 }

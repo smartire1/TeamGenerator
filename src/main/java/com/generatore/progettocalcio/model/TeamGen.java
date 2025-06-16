@@ -4,15 +4,19 @@ import com.generatore.progettocalcio.controller.DataManager;
 
 import javax.management.relation.Role;
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class TeamGen{
     public static void Genera(int Nteam){
 
         //Creazione delle N squadre
+        String[] Teams = {"Real Casola", " Casola Paris", "Casola Reds", "Casola Celtic"};
+        Collections.shuffle(Arrays.asList(Teams));
         ArrayList<Squadra> squadre = new ArrayList<>();
-        for(int i=0; i<Nteam; i++) {
-            squadre.add(new Squadra("Squadra " + (i+1)));
+        for(String s: Teams) {
+            squadre.add(new Squadra(s));
         }
+
         Giocatore g1 = new Giocatore("BLDFLV93D03F839R", "Baldo","Folvini",32,"difensore",false,"avanzato");
         Giocatore g2 = new Giocatore("RCCVCN99L01F839X", "Vincenzo","Ricciardi",25,"attaccante",true,"avanzato");
         Giocatore g3 = new Giocatore("DNNGPP94B11F839J", "Giuseppe","Donnarumma",25,"attaccante",true,"avanzato");
@@ -100,7 +104,7 @@ public class TeamGen{
             }
         }
 
-        //Inserimento under 35 per livello
+//Inserimento under 35 per livello
         for (String ruolo : ruoli) {
             ArrayList<Giocatore> rankB = new ArrayList<>();
             ArrayList<Giocatore> rankC = new ArrayList<>();
@@ -142,6 +146,32 @@ public class TeamGen{
                 squadraScelta.inserisciGiocatore(g); // aggiorna già il punteggio
             }
         }
+
+        boolean bilanciato = false;
+        int soglia = 2;
+
+        while (!bilanciato) {
+            Squadra squadraMin = Collections.min(squadre, Comparator.comparingInt(Squadra::getNumGiocatori));
+            Squadra squadraMax = Collections.max(squadre, Comparator.comparingInt(Squadra::getNumGiocatori));
+
+            int diff = squadraMax.getNumGiocatori() - squadraMin.getNumGiocatori();
+
+            if (diff <= soglia) {
+                bilanciato = true; // bilanciamento raggiunto
+            } else {
+                // Sposta l'ultimo giocatore da squadraMax a squadraMin
+                ArrayList<Giocatore> listaMax = squadraMax.getListaGiocatori();
+                if (!listaMax.isEmpty()) {
+                    Giocatore toMove = listaMax.get(listaMax.size() - 1);
+                    squadraMax.rimuoviGiocatore(toMove.getCodiceFiscale());
+                    squadraMin.inserisciGiocatore(toMove);
+                } else {
+                    // Se squadraMax è vuota (improbabile), fermati per evitare ciclo infinito
+                    break;
+                }
+            }
+        }
+
 
 
 

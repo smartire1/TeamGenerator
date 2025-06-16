@@ -20,7 +20,7 @@
                         <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
                      </HBox.margin>
                   </Button>
-                  <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="132.0" text="Statistiche">
+                  <Button mnemonicParsing="false" onAction="#resettaButton" prefHeight="77.0" prefWidth="132.0" text="Resetta">
                      <HBox.margin>
                         <Insets bottom="30.0" left="75.0" right="75.0" top="30.0" />
                      </HBox.margin>
@@ -43,7 +43,7 @@
                   <VBox alignment="CENTER" prefHeight="350.0" prefWidth="400.0">
                      <children>
                         <ListView fx:id="ListViewSquadre" prefHeight="290.0" prefWidth="0.0" />
-                        <Button mnemonicParsing="false" text="Visualizza">
+                        <Button mnemonicParsing="false" onAction="#onVisualizzaSquadreClicked" text="Visualizza">
                            <VBox.margin>
                               <Insets top="20.0" />
                            </VBox.margin>
